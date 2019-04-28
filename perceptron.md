@@ -4,8 +4,8 @@
 $$f(x)=sign(w\cdot x+b)$$
 其中线性方程$w\cdot x+b=0$对应特征空间$R^n$的一个超平面$S$,其中$w,b$分别为超平面的法向量与截距
 ## 2.学习算法
-对于给定的的训练数据集
-$$T=\left \{ \left ( x_{1},y_{1} \right ),\left ( x_{2},y_{2} \right ),...,\left ( x_{N},y_{N} \right )  \right \}$$
+对于给定的的训练数据集：
+$$T=\{( x_{1},y_{1}),( x_{2},y_{2}),...,( x_{N},y_{N}) \}$$
 其中$x_{i}\in R^n,y_{i}\in \left \{-1,1 \right \},i=1,2,3,...,N$,求参数$w,b$,使其为以下损失函数极小化问题的解
 $$\underset{w,b}{min} L(w,b)=-\sum_{x_{i}\in M}y_{i}(w\cdot x_{i}+b)$$
 其中$M$为误分类点集合。
